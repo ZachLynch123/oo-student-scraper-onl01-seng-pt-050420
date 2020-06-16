@@ -40,7 +40,7 @@ class Scraper
       info_hash[:blog] = blog
     end
     
-    
+    quote = page.css('p').text
     
     info_hash
     
