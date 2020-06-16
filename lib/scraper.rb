@@ -42,6 +42,7 @@ class Scraper
     
     quote = page.css('p').text
     
+    info_hash[:profile_quote] = quote
     info_hash
     
   end
