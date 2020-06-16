@@ -31,8 +31,8 @@ class Scraper
     socials.each do |social|
       social_link = social.css('a')["href"]
       info_hash[:github] = social_link
-      
     end
+    info_hash
     
   end
 
