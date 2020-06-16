@@ -41,6 +41,7 @@ class Scraper
     end
     
     quote = page.css('.profile-quote').text
+    bio = page.css('p').text
     
     info_hash[:profile_quote] = quote
     return info_hash
