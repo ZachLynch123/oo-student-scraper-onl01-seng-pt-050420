@@ -37,6 +37,7 @@ class Scraper
       
       info_hash[:twitter] = twitter
       info_hash[:linkedin] = linkedin
+      info_hash[:github] = github
       
     end
     info_hash
