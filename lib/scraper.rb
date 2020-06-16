@@ -31,6 +31,7 @@ class Scraper
     socials.each do |social|
       twitter = social.css('a')[0]["href"]
       linkedin = social.css('a')[1]["href"]
+      github = social.css('a')[2]["href"]
       
       
       
