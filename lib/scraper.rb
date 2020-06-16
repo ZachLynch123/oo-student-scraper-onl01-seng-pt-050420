@@ -29,7 +29,8 @@ class Scraper
     socials = page.css(".social-icon-container")
     info_hash = {}
     socials.each do |social|
-      social.css('a')["href"]
+      social_link = social.css('a')["href"]
+      info_hash[:github] = social_link
       binding.pry
     end
     
