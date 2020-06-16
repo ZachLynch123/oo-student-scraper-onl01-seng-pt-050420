@@ -32,13 +32,15 @@ class Scraper
       twitter = social.css('a')[0]["href"]
       linkedin = social.css('a')[1]["href"]
       github = social.css('a')[2]["href"]
+      blog = social.css('a')[3]["href"]
+      
       
       
       
       info_hash[:twitter] = twitter
       info_hash[:linkedin] = linkedin
       info_hash[:github] = github
-      
+      info_hash[:blog] = blog
     end
     info_hash
     
