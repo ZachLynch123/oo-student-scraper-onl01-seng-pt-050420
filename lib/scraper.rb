@@ -44,6 +44,7 @@ class Scraper
     bio = page.css('p').text
     
     info_hash[:profile_quote] = quote
+    info_hash[:bio] = bio
     return info_hash
     
   end
